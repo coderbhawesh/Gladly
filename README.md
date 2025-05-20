@@ -34,6 +34,7 @@ API Base URL: https://api.gladly.com/
 Authentication: Bearer Token (Authorization: Bearer <token>)
 
 📂 Project Structure
+```
 bash
 Copy
 Edit
@@ -45,6 +46,7 @@ gladly_importer/
 ├── last_import.json        # Stores the last successful import time
 ├── requirements.txt        # Python dependencies
 └── README.md               # This file
+```
 Incremental Import Logic
 On every run, the tool reads the last_import.json file to determine the last successful import time.
 
